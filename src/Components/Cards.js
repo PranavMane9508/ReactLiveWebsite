@@ -4,7 +4,7 @@ import { Button, Card, NavLink } from "react-bootstrap";
 export default function Cards(props) {
     return (
         <div className="col-md-4 col-10 mx-auto">
-            <Card style={{ width: '25rem' }}>
+            <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={props.imgsrc} />
                 <Card.Body>
                     <Card.Title>{props.text}</Card.Title>
